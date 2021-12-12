@@ -16,9 +16,9 @@ const MAPBOX_ACCESS_TOKEN = process.env.MAPBOX_ACCESS_TOKEN;
 
 // 初期ビューポートの設定
 const INITIAL_VIEW_STATE = {
-    latitude: 36.74350043650523,
-    longitude: -88.63633563734433,
-    zoom: 16
+    latitude: 36.74334568586827,
+    longitude: -88.63386800505081,
+    zoom: 15
 };
 
 const UIStyle = {
@@ -39,7 +39,7 @@ function Map() {
         <div>
             <div className="header">
                 <div className="title">
-                    <h1>Mayfield, Kentucky 2021-12-11 Satelite:WV03_VNIR(Maxar)</h1>
+                    <h1>Mayfield, Kentucky 2021-12-11 Satelite:WV03_VNIR(Maxar) <a href="https://twitter.com/_shimizu">@_shimizu</a></h1>
                 </div>
                 <div className="slider">
                     <Card interactive={true} style={UIStyle} >
