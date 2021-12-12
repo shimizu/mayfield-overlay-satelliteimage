@@ -1,0 +1,23 @@
+.header {
+    position: absolute;
+    z-index:9;
+    width: 100vw;
+}
+
+
+
+.title {
+    margin: 0;
+    color: white;
+    background-color: black;
+    margin-bottom:1em;
+    padding: 1em;
+}
+.title h1 {
+    margin: 0;
+}
+
+.slider {
+    width: 200px;
+    padding-left: 1em;
+}
